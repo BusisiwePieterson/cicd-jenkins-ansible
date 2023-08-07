@@ -32,6 +32,6 @@ resource "aws_security_group" "demo-sg" {
   }
 
   tags = {
-    Name = "ssh-port"
+    Name = "ssh-protocol"
   }
 }
