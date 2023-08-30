@@ -17,6 +17,7 @@ environment {
 
     stage ('SonarQube analysis') {
     environment {
+      SONAR_TOKEN = '17fa455017ede7b3c3f4b38f4200868a6a64d968'
       scannerHome = tool 'valaxy-sonar-scanner';  
     }
     steps{
