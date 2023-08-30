@@ -19,9 +19,6 @@ environment {
     environment {
       scannerHome = tool 'valaxy-sonar-scanner';  
     }
-    environment {
-        SONAR_TOKEN = '17fa455017ede7b3c3f4b38f4200868a6a64d968'
-    }
     steps{
     withSonarQubeEnv('valaxy-sonarqube-server') {
         sh "${scannerHome}/bin/sonar-scanner"
