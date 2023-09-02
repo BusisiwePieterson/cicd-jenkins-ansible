@@ -1,4 +1,4 @@
-# cicd-jenkins-ansible using jenkins, ansible and jfrog
+# cicd-jenkins-ansible using jenkins, ansible
 
 <p align="center">
   <img src="Screenshot_12.png" width='650' height='450'>
