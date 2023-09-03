@@ -1,4 +1,6 @@
 //def registry = 'https://valaxy1989.jfrog.io'
+import jenkins.model.*
+jenkins = Jenkins.instance
 def imageName = 'valaxy1989.jfrog.io/valaxy-docker-local/ttrend'
 def version   = '2.1.4'
 pipeline {
