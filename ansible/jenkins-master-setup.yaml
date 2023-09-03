@@ -31,3 +31,13 @@
     service:
       name: jenkins
       enabled: yes
+
+  - name: install docker
+    apt: 
+      name: docker.io
+      state: present
+
+  - name: start docker services
+    service:
+      name: docker
+      state: started
